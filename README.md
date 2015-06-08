@@ -7,10 +7,11 @@ $ git --version # 설치된 Git 버전 체크
 ```
 
 
-* [GitHub] (htpp://github.com/) 설치
+* [GitHub] (http://github.com/) 설치
 
 * [Node.js] (http://nodejs.org/) 설치
 ``` sh
 $ node --version # 설치된 Node 버전 체크
 ```
 * [NPM] (http://npmjs.org/) 확인/관리
+
