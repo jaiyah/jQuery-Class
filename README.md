@@ -2,12 +2,15 @@
 ### 1일차 내용 정리
 
 * [Git] (http://git-scm.com ) Git bash 활용 <br>
-	``` sh
-	$ git --version # 설치된 Git 버전 체크
-	```
+``` sh
+$ git --version # 설치된 Git 버전 체크
+```
 
 
 * [GitHub] (htpp://github.com/) 설치
 
 * [Node.js] (http://nodejs.org/) 설치
+``` sh
+$ node --version # 설치된 Node 버전 체크
+```
 * [NPM] (http://npmjs.org/) 확인/관리
