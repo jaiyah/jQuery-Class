@@ -1,3 +1,5 @@
+*~
+.DS_Store
 
 .idea/workspace.xml
 
@@ -10,3 +12,5 @@
 .idea/misc.xml
 
 .idea/vcs.xml
+
+node_modules/

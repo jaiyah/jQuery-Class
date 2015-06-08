@@ -6,7 +6,6 @@
 $ git --version # 설치된 Git 버전 체크
 ```
 
-
 * [GitHub] (http://github.com/) 설치
 
 * [Node.js] (http://nodejs.org/) 설치
@@ -14,4 +13,6 @@ $ git --version # 설치된 Git 버전 체크
 $ node --version # 설치된 Node 버전 체크
 ```
 * [NPM] (http://npmjs.org/) 확인/관리
-
+``` sh
+$ node install {module-name} * jquery 설치
+```
