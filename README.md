@@ -14,5 +14,5 @@ $ node --version # 설치된 Node 버전 체크
 ```
 * [NPM] (http://npmjs.org/) 확인/관리
 ``` sh
-$ node install {module-name} * jquery 설치
+$ node install {module-name} # jquery 설치
 ```
