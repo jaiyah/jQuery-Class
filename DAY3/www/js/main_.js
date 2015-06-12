@@ -53,7 +53,12 @@ require([], function() {
      }
 
      // 동적으로 #page 요소를 만든다. body 요소의 마지막 자식요소로 붙인다.
-     var $page = $('<div id="page"/>').appendTo('body');
+     var $page = $('<div>',{
+         'id' : 'page',
+         'on' : {
+             'click' : function(){}
+         }
+     }).appendTo('body');
      // console.log($page);
 
      // 브라우저 창의 뷰포트 높이만큼을 #page 요소의 높이로 설정한다.
