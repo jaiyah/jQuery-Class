@@ -1,3 +1,9 @@
-@import url(parts/reset.css);
-@import url(parts/commons.css);
-@import url(parts/print.css);
+/**
+ * --------------------------------
+ *
+ * --------------------------------
+ */
+
+@import "commons/normalize.css";
+@import "commons/reset.css";
+@import "commons/classes.css";

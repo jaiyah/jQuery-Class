@@ -1,5 +1,5 @@
 // 모듈 정의
-define(['jquery'], function($) {
+define(['../libs/jquery.min'], function($) {
 	// 문서가 준비되면... DOMReady 되면...
 	// require() 함수 내부의 콜백 함수는 DOMReady 된 이후 실행된다.
 
