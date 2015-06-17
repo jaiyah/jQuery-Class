@@ -17,8 +17,8 @@ require.config({
     baseUrl : 'js/', // 루트 다음의 파일이 있는 상위폴더지정
     // 모듈의 단축 경로 지정 또는 이름 별칭(Alias)을 지정
     paths: {
-        'jquery' : 'libs/jquery-1.11.3.min.js',
-        'modernizr' : 'libs/modernizr.custom.73168.js',
+        'jquery' : 'libs/jquery-1.11.3.min',
+        'modernizr' : 'libs/modernizr.custom',
         'detectizr' : 'libs/detectizr' // 디텍터나이저는 모던나이저에 의존한다. 즉, 모던나이저의 의존모듈인 것
     },
     // shim 설정 (modernizr 는 AMD 방식을 채용하지않고 있기 때문에 외부로부터 모듈을 호출하기 위해 shim 을 설정해준다.)

@@ -39,9 +39,9 @@ require([], function() {
  * --------------------------------
  */
 require([
-	'modules/isJquery',            // 함수 반환
-	'isJqueryVersion',     // jQuery 버전 반환
-	'assignBgImageforPage' // #page 요소 생성 및 조작 수행
+	'modules/isJquery',            // 함수 반환 모듈
+	'isJqueryVersion',     // jQuery 버전 반환 모듈
+	'assignBgImageforPage' // #page 요소 생성 및 조작 수행하는 모듈
 ],
 function(
 	isJquery,
