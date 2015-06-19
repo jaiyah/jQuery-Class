@@ -8,7 +8,7 @@ define(['jquery'], function ($) {
     'use strict';
 
     // jQuery 플러그인: $('body').setHeight100vh();
-    console.log( $.prototype === $.fn, $().jquery );
+    // console.log( $.prototype === $.fn, $().jquery );
 
     if( !$.fn.setHeight100vh ) {
         $.fn.setHeight100vh = function() {

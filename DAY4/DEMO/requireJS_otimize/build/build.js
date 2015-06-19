@@ -21,7 +21,8 @@
     paths                   : { requireLib: 'libs/require.min' },
 
     // 최적화 설정
-     optimize                : "uglify2", // "none", "uglify2", "uglify" uglify 를 쓸때는 소스맵을 못쓴다. uglify2를 쓰면 가능하다.
+     optimize                : "uglify2", // "none", "uglify2", "uglify"
+                                          // #uglify 를 쓸때는 소스맵을 못쓴다. uglify2 를 쓰면 가능하다.
 
     // 소스맵 생성 설정
      generateSourceMaps      : true, // 소스맵은 오류가 난 js를 알려준다. 압축된 js는 찾기가 어렵기 때문에 소스맵이 있어야 오류 파일의 라인을 알려준다.

@@ -1,29 +1,4 @@
-/**
- * --------------------------------
- * requireJS 환경설정(Configuration)
- * --------------------------------
- */
-require.config({
-	baseUrl: 'js',
 
-    //
-	paths: {
-        // 라이브러리
-		'jquery'    : 'libs/jquery.min',
-		'modernizr' : 'libs/modernizr',
-		'detectizr' : 'libs/detectizr.min',
-
-	},
-	shim: {
-		'modernizr': {
-			exports: 'Modernizr'
-		},
-		'detectizr': {
-			exports: 'Modernizr.Detectizr',
-			deps: ['modernizr']
-		}
-	}
-});
 
 /**
  * 모듈 exports 테스트

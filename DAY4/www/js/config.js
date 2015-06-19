@@ -38,8 +38,8 @@ require.config({
     // 큰 의존 모듈을 설정하여 main 모듈에 설정된 것만 쓸 것인지 other_main 모듈에 설정된 것만 쓸 것인지 설정할 수 있다.
     deps: [
          //'plugins/jquery.radioClass'
-        'init'
-        //'modules/main',
+        //'init'
+        'modules/main'
         //'other_main',
         //'modules/checkLibs'
     ],

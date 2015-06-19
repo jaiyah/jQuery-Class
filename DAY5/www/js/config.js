@@ -48,6 +48,6 @@ require.config({
 	],
 
 	waitSeconds : 15,
-	urlArgs     : 'ts=' + (new Date()).getTime(),
+	urlArgs     : 'ts=' + (new Date()).getTime()
 
 });
